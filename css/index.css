@@ -1,0 +1,50 @@
+#titulo{
+    background-color: #5b7989;
+    border-radius: 10px;
+}
+
+#letrasT{
+    color: #02010a;
+    text-shadow: 2px;
+    font-family: 'Indie Flower', cursive;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.imagenC{
+    background-color: #82c3a6;
+    text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    border-radius:1px;
+    background-color: #d5c75f;
+}
+
+.flex-item{
+    text-align: center;
+}
+
+.rotateMe{
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -moz-transition: -moz-transform 1s ease-out;
+    transition: transform 1s ease-out; 
+}
+
+.rotateMe:hover {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+   }
